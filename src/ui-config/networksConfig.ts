@@ -172,10 +172,9 @@ export const prodNetworkConfig: Record<string, BaseNetworkConfig> = {
   [ChainId.mainnet]: {
     name: 'Ethereum',
     publicJsonRPCUrl: [
-      'https://mainnet.gateway.tenderly.co',
-      'https://rpc.flashbots.net',
+      'http://arkeo.dc01.0xfury.io:3636/eth-mainnet-fullnode',  // Arkeo Sentinel (0xFury)
+      'http://provider-core-1.innovationtheory.com:3636/eth-mainnet-fullnode',  // Arkeo Sentinel (InnovationTheory)
       'https://eth.llamarpc.com',
-      'https://eth-mainnet.public.blastapi.io',
       'https://ethereum-rpc.publicnode.com',
     ],
     baseUniswapAdapter: '0xc3efa200a60883a96ffe3d5b492b121d6e9a1f3f',
@@ -254,10 +253,10 @@ export const prodNetworkConfig: Record<string, BaseNetworkConfig> = {
     name: 'Base',
     publicJsonRPCUrl: [
       'https://arkeo-provider.liquify.com/base-mainnet-fullnode',  // Arkeo Sentinel (Liquify)
-      'https://1rpc.io/base',
+      'http://arkeo.dc01.0xfury.io:3636/base-mainnet-fullnode',  // Arkeo Sentinel (0xFury)
+      'http://provider-core-1.innovationtheory.com:3636/base-mainnet-fullnode',  // Arkeo Sentinel (InnovationTheory)
       'https://base.llamarpc.com',
       'https://base.publicnode.com',
-      'https://base-mainnet.public.blastapi.io',
     ],
     baseUniswapAdapter: '0x0',
     baseAssetSymbol: 'ETH',
