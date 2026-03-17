@@ -172,8 +172,8 @@ export const prodNetworkConfig: Record<string, BaseNetworkConfig> = {
   [ChainId.mainnet]: {
     name: 'Ethereum',
     publicJsonRPCUrl: [
-      'http://arkeo.dc01.0xfury.io:3636/eth-mainnet-fullnode',  // Arkeo Sentinel (0xFury)
-      'http://provider-core-1.innovationtheory.com:3636/eth-mainnet-fullnode',  // Arkeo Sentinel (InnovationTheory)
+      'https://aave.arkeomarketplace.com/rpc/oxfury/eth-mainnet-fullnode',  // Arkeo Sentinel (0xFury)
+      'https://aave.arkeomarketplace.com/rpc/innovationtheory/eth-mainnet-fullnode',  // Arkeo Sentinel (InnovationTheory)
       'https://eth.llamarpc.com',
       'https://ethereum-rpc.publicnode.com',
     ],
@@ -253,8 +253,8 @@ export const prodNetworkConfig: Record<string, BaseNetworkConfig> = {
     name: 'Base',
     publicJsonRPCUrl: [
       'https://arkeo-provider.liquify.com/base-mainnet-fullnode',  // Arkeo Sentinel (Liquify)
-      'http://arkeo.dc01.0xfury.io:3636/base-mainnet-fullnode',  // Arkeo Sentinel (0xFury)
-      'http://provider-core-1.innovationtheory.com:3636/base-mainnet-fullnode',  // Arkeo Sentinel (InnovationTheory)
+      'https://aave.arkeomarketplace.com/rpc/oxfury/base-mainnet-fullnode',  // Arkeo Sentinel (0xFury)
+      'https://aave.arkeomarketplace.com/rpc/innovationtheory/base-mainnet-fullnode',  // Arkeo Sentinel (InnovationTheory)
       'https://base.llamarpc.com',
       'https://base.publicnode.com',
     ],
