@@ -47,7 +47,7 @@
     "@emotion/react": "11.10.4",
     "@emotion/server": "latest",
     "@emotion/styled": "11.10.4",
-    "@gelatonetwork/relay-sdk": "^5.5.5",
+    "@gelatonetwork/relay-sdk": "^5.7.0",
     "@heroicons/react": "^1.0.6",
     "@lingui/core": "^4.14.0",
     "@lingui/react": "^4.14.1",
