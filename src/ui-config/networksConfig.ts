@@ -173,7 +173,7 @@ export const prodNetworkConfig: Record<string, BaseNetworkConfig> = {
     name: 'Ethereum',
     publicJsonRPCUrl: [
       'https://aave.arkeomarketplace.com/rpc/oxfury/eth-mainnet-fullnode',  // Arkeo Sentinel (0xFury)
-      'https://aave.arkeomarketplace.com/rpc/innovationtheory/eth-mainnet-fullnode',  // Arkeo Sentinel (InnovationTheory)
+      'https://aave.arkeomarketplace.com/rpc/stakevillage/eth-mainnet-fullnode',  // Arkeo Sentinel (StakeVillage)
       'https://eth.llamarpc.com',
       'https://ethereum-rpc.publicnode.com',
     ],
@@ -189,7 +189,7 @@ export const prodNetworkConfig: Record<string, BaseNetworkConfig> = {
     name: 'Polygon POS',
     displayName: 'Polygon',
     publicJsonRPCUrl: [
-      'https://arkeo-provider.liquify.com/polygon-mainnet-fullnode',  // Arkeo Sentinel (Liquify)
+      'https://aave.arkeomarketplace.com/rpc/stakevillage/polygon-mainnet-fullnode',  // Arkeo Sentinel (StakeVillage)
       'https://gateway.tenderly.co/public/polygon',
       'https://polygon-pokt.nodies.app',
       'https://polygon-bor-rpc.publicnode.com',
@@ -232,9 +232,10 @@ export const prodNetworkConfig: Record<string, BaseNetworkConfig> = {
   [ChainId.arbitrum_one]: {
     name: 'Arbitrum',
     publicJsonRPCUrl: [
+      'https://aave.arkeomarketplace.com/rpc/everstake/arbitrum-mainnet-fullnode',  // Arkeo Sentinel (Everstake)
+      'https://aave.arkeomarketplace.com/rpc/stakevillage/arbitrum-mainnet-fullnode',  // Arkeo Sentinel (StakeVillage)
       'https://arb1.arbitrum.io/rpc',
       'https://rpc.ankr.com/arbitrum',
-      'https://1rpc.io/arb',
     ],
     baseUniswapAdapter: '0x0',
     baseAssetSymbol: 'ETH',
@@ -252,9 +253,8 @@ export const prodNetworkConfig: Record<string, BaseNetworkConfig> = {
   [ChainId.base]: {
     name: 'Base',
     publicJsonRPCUrl: [
-      'https://arkeo-provider.liquify.com/base-mainnet-fullnode',  // Arkeo Sentinel (Liquify)
       'https://aave.arkeomarketplace.com/rpc/oxfury/base-mainnet-fullnode',  // Arkeo Sentinel (0xFury)
-      'https://aave.arkeomarketplace.com/rpc/innovationtheory/base-mainnet-fullnode',  // Arkeo Sentinel (InnovationTheory)
+      'https://aave.arkeomarketplace.com/rpc/stakevillage/base-mainnet-fullnode',  // Arkeo Sentinel (StakeVillage)
       'https://base.llamarpc.com',
       'https://base.publicnode.com',
     ],
@@ -320,7 +320,7 @@ export const prodNetworkConfig: Record<string, BaseNetworkConfig> = {
   [ChainId.bnb]: {
     name: 'Binance Smart Chain',
     publicJsonRPCUrl: [
-      'https://arkeo-provider.liquify.com/bsc-mainnet-fullnode',  // Arkeo Sentinel (Liquify)
+      'https://aave.arkeomarketplace.com/rpc/stakevillage/bnb-mainnet-fullnode',  // Arkeo Sentinel (StakeVillage)
       'https://bsc.publicnode.com',
       'wss://bsc.publicnode.com',
     ],
